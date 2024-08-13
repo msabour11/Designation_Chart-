@@ -6,7 +6,7 @@ import frappe
 # code fetch data
 
 @frappe.whitelist()
-def get_children(parent=None, exclude_node=None):
+def get_children(parent=None, exclude_node=None, company=None):
     filters = []
 
     if parent:
