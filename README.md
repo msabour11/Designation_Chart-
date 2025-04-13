@@ -1,6 +1,6 @@
 ## Designation
 
-Designation Report App
+Designation chart based on designation hierarchically
 
 #### License
 
