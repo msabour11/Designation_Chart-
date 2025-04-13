@@ -9,6 +9,8 @@ app_license = "mit"
 # Includes in <head>
 # ------------------
 
+
+# fixtures = [{"dt": "Custom Field", "filters": [["dt", "=", "Designation"]]}]
 # include js, css files in header of desk.html
 # app_include_css = "/assets/designation/css/designation.css"
 # app_include_js = "/assets/designation/js/designation.js"
@@ -69,12 +71,14 @@ app_license = "mit"
 
 # before_install = "designation.install.before_install"
 # after_install = "designation.install.after_install"
+after_install = "designation.install.after_install"
+
 
 # Uninstallation
 # ------------
 
 # before_uninstall = "designation.uninstall.before_uninstall"
-# after_uninstall = "designation.uninstall.after_uninstall"
+after_uninstall = "designation.uninstall.after_uninstall"
 
 # Integration Setup
 # ------------------
@@ -226,4 +230,3 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
-
